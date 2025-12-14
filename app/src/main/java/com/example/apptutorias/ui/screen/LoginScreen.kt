@@ -11,8 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel // 👈 Necesita la dependencia life-cycle-viewmodel-compose
 import androidx.navigation.NavController
-import com.example.apptutorias.presentation.viewmodel.LoginEvent
-import com.example.apptutorias.presentation.viewmodel.LoginViewModel
+import com.example.apptutorias.data.presentation.viewmodel.LoginEvent
+import com.example.apptutorias.data.presentation.viewmodel.LoginViewModel
 import com.example.apptutorias.ui.navigation.Routes
 
 @Composable

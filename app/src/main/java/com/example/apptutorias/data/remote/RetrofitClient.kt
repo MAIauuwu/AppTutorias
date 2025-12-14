@@ -4,7 +4,9 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
-    private const val BASE_URL = "https://tu-api-backend.com/api/" // Reemplaza con tu URL real
+    // ⚠️ 10.0.2.2 es la dirección IP para conectar el emulador con tu localhost
+    // Si pruebas en celular físico, cambia esto por tu IP local (ej. 192.168.1.15)
+    private const val BASE_URL = "http://10.0.2.2:8080/api/" 
     private const val WEATHER_URL = "https://api.openweathermap.org/"
 
     private val retrofit: Retrofit by lazy {

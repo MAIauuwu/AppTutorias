@@ -7,7 +7,8 @@ import androidx.navigation.compose.rememberNavController
 import com.example.apptutorias.ui.screens.*
 import com.example.apptutorias.ui.screens.home.HomeScreen
 import com.example.apptutorias.ui.screens.rolselector.RolSelectorScreen
-import com.example.apptutorias.ui.screens.CalendarioScreen
+import com.example.apptutorias.ui.screens.reservar.ReservarTutoriaScreen // Importación necesaria
+
 @Composable
 fun NavGraph() {
     val navController = rememberNavController()
