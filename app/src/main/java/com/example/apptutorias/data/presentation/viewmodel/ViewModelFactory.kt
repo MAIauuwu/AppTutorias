@@ -14,6 +14,9 @@ class TutoriaViewModelFactory(
         if (modelClass.isAssignableFrom(ReservarViewModel::class.java)) {
             return ReservarViewModel(repository) as T
         }
+        if (modelClass.isAssignableFrom(BuscarTutoriasViewModel::class.java)) {
+            return BuscarTutoriasViewModel(repository) as T
+        }
 
 
         throw IllegalArgumentException("Unknown ViewModel class")

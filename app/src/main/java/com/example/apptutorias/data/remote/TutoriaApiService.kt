@@ -4,7 +4,7 @@ import com.example.apptutorias.data.model.Tutoria
 import retrofit2.http.*
 
 interface TutoriaApiService {
-    @GET("tutorias")
+    @GET("tutorias/all")
     suspend fun getAllTutorias(): List<Tutoria>
 
     @POST("tutorias")

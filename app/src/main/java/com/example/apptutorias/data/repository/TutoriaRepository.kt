@@ -65,4 +65,8 @@ class TutoriaRepository(
     suspend fun getCurrentWeather(): WeatherResponse {
         return weatherApi.getWeather()
     }
+
+    suspend fun searchAllTutorias(): List<Tutoria> {
+        return remoteApi.getAllTutorias()
+    }
 }
